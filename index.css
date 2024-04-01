@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background: rgb(231, 230, 230); */
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(15, 14, 16);
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:40px;
+}
+.navbar-logo{
+    height: 50px;
+    margin-left: 20px;
+ 
+    width: 82px;
+    /* background-color: blueviolet; */
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo1{
+    background-image: url("amazon_logo.png");
+    height: 45px;
+    width: 84px;
+    background-size: cover;padding-left: 2px;
+}
+.country{
+padding: 8px  0px;
+padding-right:3px ;
+}
+.country h4{
+font-size: 12px;
+padding-left: 19px;
+color: #ccc;
+}
+.country i{
+font-size: 12px;
+margin-bottom: 5px;
+margin-right: 3px;
+}
+.addras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addras p{
+    font-size: 12px;
+}
+.search-bar{
+    height: 35px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.select-s{
+color: #000;
+    height: 34px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background:  #e2e1e1f7;
+}
+.search-bar input{
+    width: 610px;
+    height: 34px;
+    padding-left: 20px;
+    background:  #ebebebf7;
+    border: none;
+    border-left:2px solid black ; 
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 35px;
+    background-color: rgb(250, 125, 80);
+}
+.eng{
+display: flex;
+height: 35px;
+align-items: center;
+margin-left: 5px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 22px 9px;
+font-weight: 900;
+}
+.account{
+    padding: 10px;
+}
+.return-order{
+    padding: 10px;
+}
+.icon-end{
+    color: white;
+font-size: 30px;
+padding: 10px;
+}
+.panal-bar{
+    background: rgb(48, 47, 47);
+    padding-left: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: azure;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+a{
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+}
+.option{
+    display: flex;
+    margin-left: 40px;
+    gap: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.option p{
+    padding: 6px 5px;
+}
+.hero-mein{
+    background-image: url("hero_image.jpg");
+    height: 300px;
+    width: 100vw;
+    background-size: cover;
+    background-color: #693333;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.hero-msg span{
+    color: blue;
+}
+.cards{
+
+    width: 100%;
+
+    background-image: linear-gradient(to right, rgb(248, 136, 136), rgb(166, 166, 248));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.card-1{
+    border-radius: 3px;
+    height: 340px;
+    width: 250px;
+background-color: rgb(240, 239, 239);
+margin: 20px;
+border: 1px solid rgb(160, 159, 159);
+
+
+
+}
+.card-1-img{
+    background-color: white;
+    height: 180px;
+}
+.card-1 p{
+font-size: 15px;
+padding: 12px 20px;
+padding-bottom: 1px;
+}
+.star-img{
+    height: 30px;
+    margin-left: 10px;
+}
+img{
+    height: 40px;
+    width: 80px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.price{
+    margin-top: 6px;
+  font-size: 25px;
+  margin-left: 27px;
+}
+.img-product{
+    background-color: aliceblue;
+height: 120px;
+width: 170px;
+margin: 40px;
+ 
+    background-color: #ccc;
+
+}
+.dilevery{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.dilevery i{
+    font-size: 14px;
+}
+.dilevery span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.panal-1{
+    height: 49px;
+    background-color: #5c5c5c;
+    color: rgb(248, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.panal-2{
+    height: 400px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panal-2 a{
+    display: block;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 200;
+
+}
+ .panal-2 .footer-para{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom:6px;
+}
+.panal-2{
+    padding-top: 90px;
+}
+.panal-3{
+    height: 130px;
+    background-color: #333333;
+    border-top: 1px solid rgb(131, 129, 129) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panal-3-box{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panal-3-box .logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 50px;
+width: 100px;
+}
+.country-lau{
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+    width: 100px;
+    border: 1px solid white;
+}
+.country-lau span{
+    margin: 4px;
+}
+.dollar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 0.4px solid white;
+height: 40px;
+width: 180px;
+}
+.dollar-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 0.3px solid white;
+height: 40px;
+width: 180px;
+}
